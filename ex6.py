@@ -6,10 +6,12 @@ while(True):
     login = input("Digite seu login:")
     senha = input("Digite sua senha:")
 
-    if login != senha:
-        print("Bem vindo ao sistema")
+    if login == senha:
+        print("Os dados estão inválidos, por favor insira novamente")
     else:
+        print("Bem vindo ao sistema")
         break
 
-    print("Os dados estão inválidos, por favor insira novamente")
+
+
 
